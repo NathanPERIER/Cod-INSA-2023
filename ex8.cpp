@@ -38,7 +38,7 @@ int main() {
 		cin >> x;
 		cin >> y;
 		cin >> qty;
-		pan[x][y] = qty;
+		pan[x][y] += qty;
 	}
 
 	bool cooked = false;
