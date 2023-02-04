@@ -1,7 +1,7 @@
 
 flags = -Wall -Wextra
 
-all: ex1
+all: ex1 ex2 ex3 ex4 ex5 ex8 ex9
 
 
 ex1: ex1.cpp
@@ -26,4 +26,10 @@ ex7: ex7.cpp
 	g++ ${flags} -o $@ $^
 
 ex8: ex8.cpp
+	g++ ${flags} -o $@ $^
+
+ex9: ex9.cpp
+	g++ ${flags} -o $@ $^
+
+ex10: ex10.cpp
 	g++ ${flags} -o $@ $^
